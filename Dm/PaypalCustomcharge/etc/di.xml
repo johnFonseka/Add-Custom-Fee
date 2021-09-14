@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author John Fonseka
+ * @copyright Copyright (c) 2020 Dev Mutants (http://www.devmutants.sg)
+ * @package Dm_PaypalCustomcharge
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Paypal\Model\Cart">
+        <plugin name="dm_update_paypal_custom_fee_order" type="Dm\PaypalCustomcharge\Model\UpdateCustomFeeForOrderPayPal"/>
+    </type>
+</config>

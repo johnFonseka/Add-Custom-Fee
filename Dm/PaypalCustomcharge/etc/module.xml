@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author John Fonseka
+ * @copyright Copyright (c) 2020 Dev Mutants (http://www.devmutants.sg)
+ * @package Dm_PaypalCustomcharge
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+	<module name="Dm_PaypalCustomcharge" setup_version="0.1.0">
+	</module>
+</config>
